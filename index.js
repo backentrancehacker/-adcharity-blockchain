@@ -18,7 +18,7 @@ class Chain {
 		this.blockchain.push(block)
 	}
 	integrity() {
-		for(let i = 0; i < this.blockchain.length; i++) {
+		for(let i = 1; i < this.blockchain.length; i++) {
 			const current = this.blockchain[i]
 			const prev = this.blockchain[i - 1]
 
