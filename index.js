@@ -1,9 +1,9 @@
 const SHA256 = require('crypto-js/sha256')
 
 class Chain {
-	constructor() {
+	constructor(difficulty) {
 		this.blockchain = [this.createGenesis()]
-		this.difficulty = 4
+		this.difficulty = difficulty || 4
 	}
 	createGenesis() {
 		return new Block('Genesis Block', '0')
