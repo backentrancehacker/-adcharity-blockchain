@@ -22,7 +22,7 @@ class Chain {
 			const current = this.blockchain[i]
 			const prev = this.blockchain[i - 1]
 
-			return ((current.hash !== current.computeHash) || (current.prevHash !== prev.hash)) ? false : true
+			return ((current.hash != current.computeHash()) || (current.prevHash != prev.hash)) ? false : true
 		}
 	}
 }
