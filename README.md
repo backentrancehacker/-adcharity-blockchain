@@ -1,6 +1,9 @@
 ## Overview
 @adcharity/blockchain is a package to create and manage simple blockchains. It relies on crypto-js for reliable and easy encryption.
 
+## Installation
+`npm install @adcharity/blockchain` and require at the head of the script.
+
 ## Usage
 There are two classes in @adcharity/blockchain, the `Chain` and `Block`.
 
