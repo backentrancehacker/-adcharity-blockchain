@@ -1,7 +1,7 @@
 {
 	"name": "@adcharity/blockchain",
 	"version": "2.0.1",
-	"description": "",
+	"description": "@adcharity/blockchain is a package to create your very own cryptocurrency. It's as easy as `const YourCoin = new Chain()`",
 	"main": "index.js",
 	"files": [
 		"index.js",
